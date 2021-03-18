@@ -22,3 +22,14 @@ A notebook: X555LI 💻
 - Intel CPU speculative execution vulnerability fix patch: Installed and Running
 - Locale setting: Canada
 - Language: en-CA (en-GB)
+- Develop Environment: Microsoft Visual Studio Community 2019 16.9.1
+- Python Version: 3.8.8
+- Conda Version: 4.7.5
+- Pip Version: 21.0.1
+
+| Package Name | Version | 
+|--------------|---------|
+| AstroPy | 4.2 |
+| MatPlotLib | 3.3.4 |
+| NumPy | 1.19.2 |
+| SciPy | 1.6.1 |
