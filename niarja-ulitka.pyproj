@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>niarja-ulitka</Name>
     <RootNamespace>niarja-ulitka</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|niarja</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Test\find_NAL.py" />
     <Compile Include="niarja_ulitka.py" />
+    <Compile Include="Test\sim_fake_NALx1.py" />
+    <Compile Include="Test\sim_fake_NALx2.py" />
+    <Compile Include="Test\sim_fake_NALx3.py" />
+    <Compile Include="Test\sim_fake_NALx4.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevelopEnvironment.md" />
+    <Content Include="LICENSE" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Test\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|niarja" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
